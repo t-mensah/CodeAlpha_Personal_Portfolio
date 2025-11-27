@@ -1,3 +1,4 @@
+
 *, ::before, ::after{
     padding: 0px;
     margin: 0px;
@@ -172,7 +173,6 @@ h2 {
 footer{
     background-color:  rgb(46, 4, 86);;
     display: flex;
-    gap: 5px;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -181,4 +181,5 @@ footer{
     justify-content: center;
     gap: 20px;
 }
+
 

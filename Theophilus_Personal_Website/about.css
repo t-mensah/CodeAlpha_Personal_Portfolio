@@ -1,0 +1,206 @@
+*, ::before, ::after{
+    padding: 0px;
+    margin: 0px;
+    justify-items:normal;
+}
+
+header{
+    background-color: rgb(46, 4, 86);
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 1px 1px ;
+}
+
+.header-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.btn{
+    cursor: pointer;
+}
+
+.logo img{
+    height: 8%;
+    width: 8%;
+}
+
+.logo, logo-lable{
+    color:red;
+    justify-content: center;
+}
+
+.nav-lists, a{
+    color: white;
+    list-style: none;
+    text-decoration-line: none;
+    display: flex;
+    justify-content:right;
+    gap: 20px;
+}
+
+a:hover{
+   background-color: rgb(208, 23, 23);
+    padding: 1px;
+    
+}
+
+.logo-label{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.headline{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.projects-pics, img{
+    height: 40vh;
+    width: 30vw;
+    margin: 5px;
+    padding: 2px;
+}
+
+.front-end, li{
+list-style: none;
+text-decoration: none;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    text-align: center; /* Center text within the content block */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    /* Optional: add a background to the content box for contrast */
+    background-color: #fff; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #ddd;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0 0 30px 0;
+    color: #555;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block; /* Allows side-by-side buttons */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: red; /* A primary action color */
+    color: white;
+    border: 2px solid black;
+}
+
+.btn-primary:hover {
+    background-color: rgb(46, 4, 86);
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: red;
+    border: 2px solid ;
+}
+
+.btn-secondary:hover {
+    background-color:rgb(46, 4, 86);
+}
+
+/* Basic responsiveness for smaller screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons a {
+        display: block; /* Stack buttons vertically on small screens */
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+/*Code for the About Page CSS*/
+.about-section{
+    background-color:#ddd;
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 40px;
+    border-radius: 5dvh;
+    border: 2px solid rgb(46, 4, 86);
+}
+
+.about-img {
+    width: 50px;
+    height:200px;
+    object-fit: cover;   
+   }
+
+.about-text{
+    justify-content: center;
+    padding: 10px;
+}
+
+
+footer{
+    background-color:  rgb(46, 4, 86);;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;    padding-left: 20px;
+    color: white;
+    margin-bottom: 1px;
+    justify-content: center;
+    gap: 20px;
+}
+
