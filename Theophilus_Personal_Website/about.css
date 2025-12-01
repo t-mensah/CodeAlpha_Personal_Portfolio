@@ -172,7 +172,6 @@ h2 {
 /*Code for the About Page CSS*/
 .about-container{
     background-color:#ddd;
-    justify-items: center;
     padding: 20px;
     margin: 100px;
     border-radius:2%;
@@ -190,23 +189,37 @@ h2 {
 
 .about-img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
+   }
+
+   img {
+    border-radius: 10%;
+    max-width: max-content;
+    max-height: fit-content;
+    
    }
 
 .about-text{
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     flex: 1;
+    border-radius: 2%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    margin: 10px;
+    background-color:#ddd;
 }
 
 strong{
     color: red;
 }
+
 .about-btn:hover {
     background-color: red; /* A primary action color */
     color: white;
     border: 2px solid black;
+    font-weight: bolder;
    
 }
 
