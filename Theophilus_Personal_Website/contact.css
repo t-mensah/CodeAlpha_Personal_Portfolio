@@ -1,0 +1,23 @@
+#research, #contact {
+    margin: 40px;
+    padding: 20px;
+    background-color: azure;
+    border: 2px solid red;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.research-card, .contact-info, .form-group {
+   margin: 40px;
+   padding: 20px;
+   background-color:rgb(215, 236, 236);
+   border-radius: 10px;
+}
+
+.contact-form{
+    background-color: azure;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}

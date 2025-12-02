@@ -204,7 +204,7 @@ section.projects-section {
 .project-card {
     padding: 20px;
     margin: 20px;
-    background-color: burlywood;
+    background-color:azure;
     justify-content: center;
     border-radius: 10px;
 }
@@ -214,7 +214,6 @@ img {
     padding: 10px;
     margin: 10px;
 }
-
 
 footer{
     background-color:  rgb(46, 4, 86);;
